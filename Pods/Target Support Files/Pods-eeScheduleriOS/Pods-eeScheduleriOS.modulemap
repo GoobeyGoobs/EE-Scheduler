@@ -1,0 +1,6 @@
+module Pods_eeScheduleriOS {
+  umbrella header "Pods-eeScheduleriOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

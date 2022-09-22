@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630038F122FB148600E20CAD /* specificCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630038F022FB148600E20CAD /* specificCellViewController.swift */; };
+		6302D15822F4918F00A8202B /* newTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302D15722F4918F00A8202B /* newTableViewCell.swift */; };
+		6333066F22F546EB00D6D5BC /* mainWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6333066E22F546EB00D6D5BC /* mainWindowViewController.swift */; };
+		6347C75422F085F700895597 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6347C75322F085F700895597 /* GoogleService-Info.plist */; };
+		6349579922F01EA300441D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349579822F01EA300441D63 /* AppDelegate.swift */; };
+		6349579B22F01EA300441D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349579A22F01EA300441D63 /* ViewController.swift */; };
+		6349579E22F01EA300441D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6349579C22F01EA300441D63 /* Main.storyboard */; };
+		634957A022F01EA500441D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349579F22F01EA500441D63 /* Assets.xcassets */; };
+		634957A322F01EA500441D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634957A122F01EA500441D63 /* LaunchScreen.storyboard */; };
+		634957AE22F01EA500441D63 /* eeScheduleriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634957AD22F01EA500441D63 /* eeScheduleriOSTests.swift */; };
+		634957B922F01EA500441D63 /* eeScheduleriOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634957B822F01EA500441D63 /* eeScheduleriOSUITests.swift */; };
+		63D7254B22F3F6A2005E0D87 /* addStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7254A22F3F6A2005E0D87 /* addStudentViewController.swift */; };
+		63D7254D22F4716C005E0D87 /* retrieveDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7254C22F4716C005E0D87 /* retrieveDataViewController.swift */; };
+		63F6BAF022F876770082B946 /* databaseStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F6BAEF22F876770082B946 /* databaseStructure.swift */; };
+		650A48755CD25C4DB137542F /* libPods-eeScheduleriOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B8FFC77786E3018FEC21F /* libPods-eeScheduleriOS.a */; };
+		712B4E13C6B058889C6C9CA0 /* libPods-eeScheduleriOSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B592B69AB86EAB61BEA23C2 /* libPods-eeScheduleriOSUITests.a */; };
+		7F4B869467CE34710A0CE956 /* libPods-eeScheduleriOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BA28E6CAB79C64ED0304CC /* libPods-eeScheduleriOSTests.a */; };
+		C1A84BF42331D37000D8F8ED /* newMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A84BF32331D37000D8F8ED /* newMeetingViewController.swift */; };
+		C1D6B42B235C3E5200C05276 /* completeAddiStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6B42A235C3E5200C05276 /* completeAddiStudentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		634957AA22F01EA500441D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6349578D22F01EA300441D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6349579422F01EA300441D63;
+			remoteInfo = eeScheduleriOS;
+		};
+		634957B522F01EA500441D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6349578D22F01EA300441D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6349579422F01EA300441D63;
+			remoteInfo = eeScheduleriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B2481AB68060D6E7F27F850 /* Pods-eeScheduleriOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eeScheduleriOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-eeScheduleriOSUITests/Pods-eeScheduleriOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F61EE80E509E05ED3DE76FB /* Pods-eeScheduleriOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eeScheduleriOSTests.release.xcconfig"; path = "Target Support Files/Pods-eeScheduleriOSTests/Pods-eeScheduleriOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		630038F022FB148600E20CAD /* specificCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = specificCellViewController.swift; sourceTree = "<group>"; };
+		6302D15722F4918F00A8202B /* newTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newTableViewCell.swift; sourceTree = "<group>"; };
+		6333066E22F546EB00D6D5BC /* mainWindowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainWindowViewController.swift; sourceTree = "<group>"; };
+		6347C75322F085F700895597 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6349579522F01EA300441D63 /* eeScheduleriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eeScheduleriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6349579822F01EA300441D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6349579A22F01EA300441D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6349579D22F01EA300441D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6349579F22F01EA500441D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		634957A222F01EA500441D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		634957A422F01EA500441D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634957A922F01EA500441D63 /* eeScheduleriOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eeScheduleriOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		634957AD22F01EA500441D63 /* eeScheduleriOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eeScheduleriOSTests.swift; sourceTree = "<group>"; };
+		634957AF22F01EA500441D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634957B422F01EA500441D63 /* eeScheduleriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eeScheduleriOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		634957B822F01EA500441D63 /* eeScheduleriOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eeScheduleriOSUITests.swift; sourceTree = "<group>"; };
+		634957BA22F01EA500441D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D7254A22F3F6A2005E0D87 /* addStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addStudentViewController.swift; sourceTree = "<group>"; };
+		63D7254C22F4716C005E0D87 /* retrieveDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retrieveDataViewController.swift; sourceTree = "<group>"; };
+		63F6BAEF22F876770082B946 /* databaseStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = databaseStructure.swift; sourceTree = "<group>"; };
+		71180B4C5BBF2536AC1BC789 /* Pods-eeScheduleriOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eeScheduleriOSTests.debug.xcconfig"; path = "Target Support Files/Pods-eeScheduleriOSTests/Pods-eeScheduleriOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B592B69AB86EAB61BEA23C2 /* libPods-eeScheduleriOSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eeScheduleriOSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5E4CC5C41E77642B632191 /* Pods-eeScheduleriOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eeScheduleriOS.debug.xcconfig"; path = "Target Support Files/Pods-eeScheduleriOS/Pods-eeScheduleriOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9D9B8FFC77786E3018FEC21F /* libPods-eeScheduleriOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eeScheduleriOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A84BF32331D37000D8F8ED /* newMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newMeetingViewController.swift; sourceTree = "<group>"; };
+		C1D6B42A235C3E5200C05276 /* completeAddiStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completeAddiStudentViewController.swift; sourceTree = "<group>"; };
+		E4A702E10ECBC5D6762DA30B /* Pods-eeScheduleriOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eeScheduleriOS.release.xcconfig"; path = "Target Support Files/Pods-eeScheduleriOS/Pods-eeScheduleriOS.release.xcconfig"; sourceTree = "<group>"; };
+		E5BA28E6CAB79C64ED0304CC /* libPods-eeScheduleriOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eeScheduleriOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA92F23C8C949EBABAD14CFB /* Pods-eeScheduleriOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eeScheduleriOSUITests.release.xcconfig"; path = "Target Support Files/Pods-eeScheduleriOSUITests/Pods-eeScheduleriOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6349579222F01EA300441D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650A48755CD25C4DB137542F /* libPods-eeScheduleriOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634957A622F01EA500441D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4B869467CE34710A0CE956 /* libPods-eeScheduleriOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634957B122F01EA500441D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B4E13C6B058889C6C9CA0 /* libPods-eeScheduleriOSUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6349578C22F01EA300441D63 = {
+			isa = PBXGroup;
+			children = (
+				6349579722F01EA300441D63 /* eeScheduleriOS */,
+				634957AC22F01EA500441D63 /* eeScheduleriOSTests */,
+				634957B722F01EA500441D63 /* eeScheduleriOSUITests */,
+				6349579622F01EA300441D63 /* Products */,
+				F701662C4F1FBC272F6B9A8F /* Pods */,
+				9ACC5CA81F94359963E211FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6349579622F01EA300441D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6349579522F01EA300441D63 /* eeScheduleriOS.app */,
+				634957A922F01EA500441D63 /* eeScheduleriOSTests.xctest */,
+				634957B422F01EA500441D63 /* eeScheduleriOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6349579722F01EA300441D63 /* eeScheduleriOS */ = {
+			isa = PBXGroup;
+			children = (
+				63F6BAEF22F876770082B946 /* databaseStructure.swift */,
+				6349579822F01EA300441D63 /* AppDelegate.swift */,
+				6349579A22F01EA300441D63 /* ViewController.swift */,
+				63D7254C22F4716C005E0D87 /* retrieveDataViewController.swift */,
+				6333066E22F546EB00D6D5BC /* mainWindowViewController.swift */,
+				6302D15722F4918F00A8202B /* newTableViewCell.swift */,
+				63D7254A22F3F6A2005E0D87 /* addStudentViewController.swift */,
+				C1D6B42A235C3E5200C05276 /* completeAddiStudentViewController.swift */,
+				630038F022FB148600E20CAD /* specificCellViewController.swift */,
+				C1A84BF32331D37000D8F8ED /* newMeetingViewController.swift */,
+				6349579C22F01EA300441D63 /* Main.storyboard */,
+				6349579F22F01EA500441D63 /* Assets.xcassets */,
+				634957A122F01EA500441D63 /* LaunchScreen.storyboard */,
+				634957A422F01EA500441D63 /* Info.plist */,
+				6347C75322F085F700895597 /* GoogleService-Info.plist */,
+			);
+			path = eeScheduleriOS;
+			sourceTree = "<group>";
+		};
+		634957AC22F01EA500441D63 /* eeScheduleriOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				634957AD22F01EA500441D63 /* eeScheduleriOSTests.swift */,
+				634957AF22F01EA500441D63 /* Info.plist */,
+			);
+			path = eeScheduleriOSTests;
+			sourceTree = "<group>";
+		};
+		634957B722F01EA500441D63 /* eeScheduleriOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				634957B822F01EA500441D63 /* eeScheduleriOSUITests.swift */,
+				634957BA22F01EA500441D63 /* Info.plist */,
+			);
+			path = eeScheduleriOSUITests;
+			sourceTree = "<group>";
+		};
+		9ACC5CA81F94359963E211FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D9B8FFC77786E3018FEC21F /* libPods-eeScheduleriOS.a */,
+				E5BA28E6CAB79C64ED0304CC /* libPods-eeScheduleriOSTests.a */,
+				7B592B69AB86EAB61BEA23C2 /* libPods-eeScheduleriOSUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F701662C4F1FBC272F6B9A8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E4CC5C41E77642B632191 /* Pods-eeScheduleriOS.debug.xcconfig */,
+				E4A702E10ECBC5D6762DA30B /* Pods-eeScheduleriOS.release.xcconfig */,
+				71180B4C5BBF2536AC1BC789 /* Pods-eeScheduleriOSTests.debug.xcconfig */,
+				3F61EE80E509E05ED3DE76FB /* Pods-eeScheduleriOSTests.release.xcconfig */,
+				1B2481AB68060D6E7F27F850 /* Pods-eeScheduleriOSUITests.debug.xcconfig */,
+				EA92F23C8C949EBABAD14CFB /* Pods-eeScheduleriOSUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6349579422F01EA300441D63 /* eeScheduleriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634957BD22F01EA500441D63 /* Build configuration list for PBXNativeTarget "eeScheduleriOS" */;
+			buildPhases = (
+				E9E2D93F0DE9C4D8F5D59523 /* [CP] Check Pods Manifest.lock */,
+				6349579122F01EA300441D63 /* Sources */,
+				6349579222F01EA300441D63 /* Frameworks */,
+				6349579322F01EA300441D63 /* Resources */,
+				6B40F6C86AD175F6DDC9C79F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eeScheduleriOS;
+			productName = eeScheduleriOS;
+			productReference = 6349579522F01EA300441D63 /* eeScheduleriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		634957A822F01EA500441D63 /* eeScheduleriOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634957C022F01EA500441D63 /* Build configuration list for PBXNativeTarget "eeScheduleriOSTests" */;
+			buildPhases = (
+				546390B0A6666B569FB0929C /* [CP] Check Pods Manifest.lock */,
+				634957A522F01EA500441D63 /* Sources */,
+				634957A622F01EA500441D63 /* Frameworks */,
+				634957A722F01EA500441D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634957AB22F01EA500441D63 /* PBXTargetDependency */,
+			);
+			name = eeScheduleriOSTests;
+			productName = eeScheduleriOSTests;
+			productReference = 634957A922F01EA500441D63 /* eeScheduleriOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		634957B322F01EA500441D63 /* eeScheduleriOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634957C322F01EA500441D63 /* Build configuration list for PBXNativeTarget "eeScheduleriOSUITests" */;
+			buildPhases = (
+				0439079CD628A8BEFF20049A /* [CP] Check Pods Manifest.lock */,
+				634957B022F01EA500441D63 /* Sources */,
+				634957B122F01EA500441D63 /* Frameworks */,
+				634957B222F01EA500441D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634957B622F01EA500441D63 /* PBXTargetDependency */,
+			);
+			name = eeScheduleriOSUITests;
+			productName = eeScheduleriOSUITests;
+			productReference = 634957B422F01EA500441D63 /* eeScheduleriOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6349578D22F01EA300441D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Aryaman Singh";
+				TargetAttributes = {
+					6349579422F01EA300441D63 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					634957A822F01EA500441D63 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6349579422F01EA300441D63;
+					};
+					634957B322F01EA500441D63 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6349579422F01EA300441D63;
+					};
+				};
+			};
+			buildConfigurationList = 6349579022F01EA300441D63 /* Build configuration list for PBXProject "eeScheduleriOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6349578C22F01EA300441D63;
+			productRefGroup = 6349579622F01EA300441D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6349579422F01EA300441D63 /* eeScheduleriOS */,
+				634957A822F01EA500441D63 /* eeScheduleriOSTests */,
+				634957B322F01EA500441D63 /* eeScheduleriOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6349579322F01EA300441D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634957A322F01EA500441D63 /* LaunchScreen.storyboard in Resources */,
+				6347C75422F085F700895597 /* GoogleService-Info.plist in Resources */,
+				634957A022F01EA500441D63 /* Assets.xcassets in Resources */,
+				6349579E22F01EA300441D63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634957A722F01EA500441D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634957B222F01EA500441D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0439079CD628A8BEFF20049A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eeScheduleriOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		546390B0A6666B569FB0929C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eeScheduleriOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B40F6C86AD175F6DDC9C79F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eeScheduleriOS/Pods-eeScheduleriOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eeScheduleriOS/Pods-eeScheduleriOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eeScheduleriOS/Pods-eeScheduleriOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E2D93F0DE9C4D8F5D59523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eeScheduleriOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6349579122F01EA300441D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630038F122FB148600E20CAD /* specificCellViewController.swift in Sources */,
+				63F6BAF022F876770082B946 /* databaseStructure.swift in Sources */,
+				63D7254D22F4716C005E0D87 /* retrieveDataViewController.swift in Sources */,
+				C1D6B42B235C3E5200C05276 /* completeAddiStudentViewController.swift in Sources */,
+				6333066F22F546EB00D6D5BC /* mainWindowViewController.swift in Sources */,
+				C1A84BF42331D37000D8F8ED /* newMeetingViewController.swift in Sources */,
+				6349579B22F01EA300441D63 /* ViewController.swift in Sources */,
+				63D7254B22F3F6A2005E0D87 /* addStudentViewController.swift in Sources */,
+				6302D15822F4918F00A8202B /* newTableViewCell.swift in Sources */,
+				6349579922F01EA300441D63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634957A522F01EA500441D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634957AE22F01EA500441D63 /* eeScheduleriOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634957B022F01EA500441D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634957B922F01EA500441D63 /* eeScheduleriOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		634957AB22F01EA500441D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6349579422F01EA300441D63 /* eeScheduleriOS */;
+			targetProxy = 634957AA22F01EA500441D63 /* PBXContainerItemProxy */;
+		};
+		634957B622F01EA500441D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6349579422F01EA300441D63 /* eeScheduleriOS */;
+			targetProxy = 634957B522F01EA500441D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6349579C22F01EA300441D63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6349579D22F01EA300441D63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		634957A122F01EA500441D63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634957A222F01EA500441D63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		634957BB22F01EA500441D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		634957BC22F01EA500441D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634957BE22F01EA500441D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5E4CC5C41E77642B632191 /* Pods-eeScheduleriOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AY27D2F3T6;
+				INFOPLIST_FILE = eeScheduleriOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryamansingh.eeScheduleriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		634957BF22F01EA500441D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A702E10ECBC5D6762DA30B /* Pods-eeScheduleriOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AY27D2F3T6;
+				INFOPLIST_FILE = eeScheduleriOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryamansingh.eeScheduleriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		634957C122F01EA500441D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71180B4C5BBF2536AC1BC789 /* Pods-eeScheduleriOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AY27D2F3T6;
+				INFOPLIST_FILE = eeScheduleriOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryamansingh.eeScheduleriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eeScheduleriOS.app/eeScheduleriOS";
+			};
+			name = Debug;
+		};
+		634957C222F01EA500441D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F61EE80E509E05ED3DE76FB /* Pods-eeScheduleriOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AY27D2F3T6;
+				INFOPLIST_FILE = eeScheduleriOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryamansingh.eeScheduleriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eeScheduleriOS.app/eeScheduleriOS";
+			};
+			name = Release;
+		};
+		634957C422F01EA500441D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2481AB68060D6E7F27F850 /* Pods-eeScheduleriOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AY27D2F3T6;
+				INFOPLIST_FILE = eeScheduleriOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryamansingh.eeScheduleriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eeScheduleriOS;
+			};
+			name = Debug;
+		};
+		634957C522F01EA500441D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA92F23C8C949EBABAD14CFB /* Pods-eeScheduleriOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AY27D2F3T6;
+				INFOPLIST_FILE = eeScheduleriOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryamansingh.eeScheduleriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eeScheduleriOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6349579022F01EA300441D63 /* Build configuration list for PBXProject "eeScheduleriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634957BB22F01EA500441D63 /* Debug */,
+				634957BC22F01EA500441D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634957BD22F01EA500441D63 /* Build configuration list for PBXNativeTarget "eeScheduleriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634957BE22F01EA500441D63 /* Debug */,
+				634957BF22F01EA500441D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634957C022F01EA500441D63 /* Build configuration list for PBXNativeTarget "eeScheduleriOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634957C122F01EA500441D63 /* Debug */,
+				634957C222F01EA500441D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634957C322F01EA500441D63 /* Build configuration list for PBXNativeTarget "eeScheduleriOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634957C422F01EA500441D63 /* Debug */,
+				634957C522F01EA500441D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6349578D22F01EA300441D63 /* Project object */;
+}
